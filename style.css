@@ -1,23 +1,37 @@
 body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
-    margin-right: 300px;
 }
 
-.header1 {
+.bluetop, footer {
+    background-color: #1f2937;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+}
+
+header {
     display: flex;
     align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
     justify-content: space-between;
-    background-color: #1f2937;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+   
+}
+
+.headerlogo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 ul {
     display: flex;
-    gap: 15px;
     list-style-type: none;
-    
+    gap: 20px;
 }
 
 a {
@@ -26,6 +40,79 @@ a {
     font-size: 18px;
 }
 
-.header2 {font-size: 24px;
-color: #f9faf8;
+.hero {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.heromain {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.herosecondary {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: 10px;
+    width: 90px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+}
+
+.right {
+    height: 300px;
+    width:900px;
+}
+
+.random {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 70px;
+}
+
+.randomtext {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.fourpics {
+    display: flex;
+    justify-content: space-around;
+}
+.imgtext {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 150px;
+text-align: center;
+padding: 10px;
+
+
+}
+
+.randomimg {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
 }
