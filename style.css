@@ -10,6 +10,7 @@ body {
 
 .quotebox {
     background-color: #e5e7eb;
+    padding: 100px;
 }
 
 header {
@@ -51,7 +52,7 @@ a {
 .left {
     display: flex;
     flex-direction: column;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 .heromain {
@@ -69,11 +70,16 @@ a {
 button {
     background-color: #3882f6;
     color:#e5e7eb;
-    padding: 10px;
-    width: 90px;
-    height: 35px;
+    margin-top: 20px;
     justify-content: center;
     align-content: center;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 24px;
+    height: 50px;
+    width: 180px;
+    font-weight: bold;
+    
 }
 
 .right {
@@ -115,4 +121,69 @@ padding: 10px;
     height: 150px;
     width: 150px;
     border: 3px solid #3882f6;
+    border-radius: 25px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.author {
+    text-align: end;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.action {
+    background-color:#3882f6;
+    color:#f9faf8;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 150px;
+}
+
+.leftaction {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 28px;
+    font-weight: bold;    
+}
+
+.signup {
+    font-size: 20px;
+}
+
+.actionbutton {
+    color:#f9faf8;
+    font-size: 24px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding:10px
+}
+
+footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-size: 24px;
+
 }
